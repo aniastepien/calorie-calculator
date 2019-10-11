@@ -1,0 +1,42 @@
+div {
+    height: 50px;
+    
+}
+
+section .main-image {
+    height: 50px;
+    width: 220px;
+}
+
+h2{
+    font-size: 15px;
+
+}
+
+/* #menu {
+    padding: 15px;
+}
+
+#deklaracja {
+    padding: 10px;
+    margin: 15px;
+} */
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table tr {
+    border: 1px solid black;
+}
+
+table th {
+    width: 100px;
+    background-color: lemonchiffon;
+}
+
+body {
+    margin-left: 300px;
+    margin-right: 300px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="cal.css">
+        <body onload="odliczanie();">
+            <h1>
+                Kalkulator Kalorii CalByAnn
+            </h1>
+            <section id="main-img">
+                <img src="Kalkulator-kalorii-reklama-na-FB.png" alt="" style="width: 400px; height: 250px;"/>
+            </section>
+            <section>
+                    <h2 id="instructions">Wpisz liczę kalorii, które chciałbyś dziennie spozywać:</h2>
+                    <input type="text" id="kalorie"/>
+                    <input type="submit" id="deklaracja"/><br>
+            </section>
+           
+            <div id="print">
+            </div>
+            <section>
+                <div id="clock"></div>
+                <h2>Dodaj pozycję z listy</h2>
+                <select id="products">
+                        <option value="0"></option>
+                </select>
+                <input type="submit" id="add"/>
+                <h2>Jezeli na liście brakuje jakiegoś produktu mozesz dodać go ponizej:</h2>
+                <input type="text" placeholder="Nazwa produktu" id="newItem"/><br>
+                <input type="text" placeholder="Kalorie" id="newCal"/><br>
+                <input type="submit" id="addNewItem"/>
+            </section>
+            <section>
+                <h2>Twoje dzisiejsze posiłki:</h2>
+                <div id="menu">
+                        <table> 
+                            <tbody id="t">
+                                    <tr><th>nazwa</th><th>kcal</th></tr> 
+                            </tbody>
+                        </table> 
+                </div>
+            </section>
+            <script src=cal.js></script>
+    </body>
+</html>
